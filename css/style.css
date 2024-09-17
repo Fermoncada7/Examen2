@@ -1,0 +1,126 @@
+:root{
+	--color-negro:#282d33;
+	--color-naranja: #f7b614;
+	--color-titulos:#2a2a32;
+	--color-contenido: #AAA;
+}
+body{
+	color:var(--color-contenido);
+	font-family: 'Catamaran', sans-serif;
+}
+
+.hero {
+    background: url("../img/slider-glob.png") no-repeat center center, var(--color-negro);
+    background-size: cover;
+    padding: 100px 0;
+    text-align: left;
+}
+
+.hero h1 span {
+    color: var(--color-naranja);
+}
+
+.hero p {
+    color: var(--color-contenido);
+}
+
+.hero .btn {
+    background-color: var(--color-naranja);
+    color: white;
+}
+
+.popular-goods {
+    padding: 50px 0;
+    background-color: white;
+    color: var(--color-titulos);
+}
+
+.popular-goods h2 {
+    color: var(--color-titulos);
+    margin-bottom: 30px;
+}
+
+.popular-goods .item {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.popular-goods .item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.popular-goods .item h4 {
+    margin-top: 15px;
+    color: var(--color-titulos);
+}
+
+.popular-goods .item p {
+    margin: 10px 0;
+}
+
+.popular-goods .item .price {
+    color: var(--color-naranja);
+    font-weight: bold;
+}
+
+.popular-goods .item .btn {
+    background-color: var(--color-naranja);
+    color: white;
+}
+
+.sit-at-home {
+    padding: 50px 0;
+    background-color: var(--color-negro);
+}
+
+.sit-at-home h2 span {
+    color: var(--color-naranja);
+}
+
+.sit-at-home ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sit-at-home ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.sit-at-home ul li i {
+    color: var(--color-naranja);
+    margin-right: 10px;
+}
+
+
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+footer{
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: #f7b614;
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}

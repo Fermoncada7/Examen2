@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GoMoto - Food Delivery</title>
+<link href="img/favicon.png" rel="shortcut icon">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-custom.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap" rel="stylesheet"> 
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		<div class="container-fluid">
+			
+			
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  
+				<a class="navbar-brand" href="index.html">
+					<img src="img/logo_1x.png" class="img-fluid" >
+				</a>
+				
+				
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav mx-auto">
+				  <li class="nav-item active">
+					<a class="nav-link" href="#">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">About Us</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Catalog</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Blog</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Contacts</a>
+				  </li>
+				</ul>
+				  
+			  </div>
+			</nav>
+			
+		</div>
+	</header>
+	
+	
+	
+	
+	
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+					<h1><b>Express</b> <br> <span><b>Home Delivery</b></span></h1>
+                    <p>Curabitur imperdiet varius lacus, id placerat purus vulputate non. Fusce in felis vel arcu maximus placerat eu ut arcu. Ut nunc ex, gravida vel porttitor et, pretium ac sapien.</p>
+                    <a href="#" class="btn btn-warning">Read More</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/slider-courier-mask.png" alt="Deliveryman" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Goods Section -->
+<section class="popular-goods">
+    <div class="container">
+		<h2 class="text-center"><b>Popular Goods</b></h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="item">
+                    <img src="img/item_03-480x480.jpg" alt="Cheeseburger with Salad">
+                    <h4>Cheeseburger with Salad</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem...</p>
+                    <p class="price">$19.00</p>
+                    <button class="btn btn-warning">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="item">
+                    <img src="img/item_04-480x480.jpg" alt="Royal Cheeseburger with Bacon">
+                    <h4>Royal Cheeseburger with Bacon</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem...</p>
+                    <p class="price">$13.49</p>
+                    <button class="btn btn-warning">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="item">
+                    <img src="img/item_02-480x480.jpg" alt="Black Gamburger with Fishcake">
+                    <h4>Black Gamburger with Fishcake</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem...</p>
+                    <p class="price">$24.99</p>
+                    <button class="btn btn-warning">Add to cart</button>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="item">
+                    <img src="img/item_01-480x480.jpg" alt="Classic Bacon Hamburger">
+                    <h4>Classic Bacon Hamburger</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem...</p>
+                    <p class="price">$11.99</p>
+                    <button class="btn btn-warning">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Sit At Home Section -->
+    <section class="sit-at-home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/sit-photo.jpg" alt="Sit at Home" class="img-fluid">
+                </div>
+                <div class="col-md-6 text-white">
+					<h2><b>Sit at Home</b> <br> <span><b>We Will Take Care</b></span></h2>
+                    <p>Proin ornare posuere quam ut euismod. Nam eu nunc vitae orci ultrices imperdiet id id ligula. Sed interdum eros eget sagittis rutrum. Vestibulum in elementum mauris. In iaculis odio urna.</p>
+                    <ul>
+                        <li><img src="img/icon4.jpg"> Fast Delivery in 1 Hour</li>
+                        <li><img src="img/icon3.jpg"> Amazing Mobile App</li>
+                        <li><img src="img/icon2.jpg"> Wide Coverage Map</li>
+                        <li><img src="img/icon1.jpg"> More Than 150 Couriers</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<footer>
+		<section id="info">
+			<div class="container">
+				<img src="img/logo_1x.png" class="img-fluid m-auto d-block">
+				<br>
+				<p>Etiam consequat sem ullamcorper, euismod metus sit amet, tristique justo. Vestibulum mattis, nisi ut<br> faucibus commodo, risus ex commodo.</p>
+			</div>
+		</section>
+		<section id="copy">
+			<div class="container">
+				<p><span>Diseño Web</span> © All Rights Reserved - 2024</p>
+			</div>
+		</section>
+		
+	</footer>
+	
+	
+
+
+<!-- js -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
